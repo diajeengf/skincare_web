@@ -15,13 +15,39 @@
         <li><a href= '#'>EXPERIENCE</a></li>
         <li><a href= '#'>SHOP</a></li>
         <li><a href= '#'>PHILOSOPHY</a></li>
+        <li><a href="#" id="openLogin">Login</a></li>
+        <li class="profile" id="profileMenu" style="display: none;">
+        <img src="profile.png" class="profile-pic">
+      <span id="profileName">User</span>
+    </li>
       </ul>
       <div class="hamburger" id="hamburgerBtn">
         ☰
     </div>
     </div>
     <h1>pink skincare</h1>
+    <section class="hero">
+
+      <div class="screw"></div>
+      <div class="text-area">
+        <h1>Glow with Je-care!</h1>
+        <p>Je-care is a natural skincare to makes you glow.</p>
+      </div>
+      <div class="screw"></div>
+    </section>
+    <!-- LOGIN POPUP -->
+<div class="login-modal" id="loginModal">
+  <div class="login-box">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="loginBtn">Login</button>
+      <p id="loginMessage"></p>
+      <button class="close-login" id="closeLogin">Close</button>
+  </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <button id="btn">Click Me!</button>
-    <script src="'script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
